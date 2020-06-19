@@ -6,7 +6,6 @@ require_relative './course.rb'
 
 class get_page
   doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
-end
   
   def print_courses
     self.make_courses
@@ -18,8 +17,6 @@ end
       end
     end
   end
- 
- 
 end
 
 
