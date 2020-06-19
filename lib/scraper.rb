@@ -4,7 +4,8 @@ require "pry"
 
 require_relative './course.rb'
 
-class get_page
+class Scraper 
+
   
   #doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
  
